@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+h1, h2, h3{
+	text-align: center;
+	color: whitesmoke;
+}
+
+p {
+	text-align: center;
+	color: whitesmoke;
+	justify-content: center;
+}
+
+@font-face{
+	font-family: VlatkoBlazekovic
+}
+
+h1 {
+	font-family: VlatkoBlazekovic;
+}
+
+ul{
+	
+	list-style-type: none;
+	justify-content: center;
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+}
+
+body {
+	background: url("Pozadinska slika.jpg");
+	text-align: center;
+}
+
+li {
+	padding: 5px;
+	justify-content: center;
+	display: inline-block;
+	
+}
+
+a:link {
+	color: rosybrown;
+	background-color: ghostwhite;
+	padding: 5px;
+	line-height: 40px;
+	border: 1px solid #858585;
+	text-decoration: none;
+}
+
+img {
+	height: 600px;
+}
+
+.video-container {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+h2, h3, p {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
